@@ -76,7 +76,13 @@ button{
 
 /* imágenes esquinas */
 
-.corner{ position:fixed; width:180px; }
+.corner{
+  position:fixed;
+  width:180px;
+  background:transparent;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(0 0 2px rgba(0,0,0,0.15));
+}
 
 .tl{top:20px; left:20px;}
 
